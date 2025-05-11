@@ -1,0 +1,16 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Declare and initialize the array of names
+        string[] names = { "Abdullah", "asif", "Ali", "Aitsaam", "Umar" };
+
+        // Print each name in the array
+        foreach (string name in names)
+        {
+            Console.WriteLine(name);
+        }
+    }
+}
