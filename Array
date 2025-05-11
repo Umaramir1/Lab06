@@ -14,3 +14,29 @@ class Program
         }
     }
 }
+2nd_branch
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        // Create a list of 5 vegetables
+        List<string> vegetables = new List<string>
+        {
+            "Carrot",
+            "Broccoli",
+            "Spinach",
+            "Potato",
+            "Cabbage"
+        };
+
+        // Print each vegetable
+        foreach (string veg in vegetables)
+        {
+            Console.WriteLine(veg);
+        }
+    }
+}
+
